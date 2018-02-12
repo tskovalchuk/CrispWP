@@ -1,0 +1,12 @@
+.gradient{
+height: 100px;
+width: 100%;
+background-image: linear-gradient(10deg, purple 10%, crimson 30%, orangered 50%, gold 75%
+)
+}
+.text{
+	text-align: center;
+	line-height: 6em;
+	color: #fff;
+}
+
