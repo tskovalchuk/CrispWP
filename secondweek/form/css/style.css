@@ -1,0 +1,59 @@
+*:focus {outline: none;}
+
+.form{
+width: 50%;
+display: inline-block;
+margin-left: 300px;
+}
+h2{
+	font-size: 16px;
+	font-style: italic;
+	font-weight: normal;	
+}
+.contact_form ul {
+ width:750px;
+ list-style-type:none;
+ list-style-position:outside;
+ margin:0px;
+ padding:0px;
+}
+.contact_form li{
+ padding:12px;
+ border-bottom:1px solid #eee;
+ position:relative;
+}
+
+.contact_form label {
+ width:150px;
+ margin-top: 3px;
+ display:inline-block;
+ float:left;
+ padding:3px;
+}
+.contact_form input {
+ height:20px;
+ width:220px;
+ padding:5px 8px;
+}
+.contact_form textarea {padding:8px; width:220px;}
+.contact_form select {padding:8px; width:238px;}
+.contact_form button {margin-top: :15px;}
+
+.required:after
+{
+    color: red;
+    content: " *";
+}
+button.submit {
+	padding: 10px 10px 10px 10px;
+	background-color: #eeeeee;
+}
+.butdown{
+	margin-top: 20px;
+}	
+
+.animal{
+	width: 24%;
+	display: inline-block;
+}
+.choose{width: 750px}

@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="css/style.css">
+    <title>form</title>
+</head>
+<body>
+<div class="form">
+	<h1>
+		Форма заявки на работу в зоопарке
+	</h1>
+	<h2 class="required">
+		Пожалуйста, заполните форму. Обязательные поля помечены
+	</h2>
+<form class="contact_form" action="" method="post" name="contact_form">
+  <fieldset>
+    <legend>Контактная информация</legend>
+    <ul>
+    	<li>
+    		<label class="required" for="name">Имя</label>
+    		<input type="text" name="name">
+    	</li>
+    	<li>
+    		<label for="phone">Телефон</label>
+    		<input type="text" name="phone">
+    	</li>
+    	<li>
+    		<label class="required" for="email">Email</label>
+    		<input type="text" name="email">
+    	</li>
+    </ul>
+  </fieldset>
+
+  <fieldset>
+    <legend>Персональная информация</legend>
+    <ul>
+    	<li>
+    		<label class="required" for="age">Возраст</label>
+    		<input type="text" name="age">
+    	</li>
+    	<li>
+    		<label for="gender">Пол </label>
+    		<select name=”gender”>
+    		<option>Мужчина</option>
+			<option>Женщина</option>
+			<option>Иной</option>
+    		</select>
+
+    	</li>
+    	<li>
+    		<label for="message">Личные качества</label>
+			<textarea name="message" cols="20" rows="6"></textarea>
+    	</li>
+    </ul>
+  </fieldset>
+  <fieldset class="choose">
+    <legend>Выберите ваших любимых животных</legend>
+    <div class="animal">
+      <input type="checkbox" name="interest" id="zebra" value="zebra">
+      <label for="zebra">Зебра</label>
+    </div>
+    <div class="animal">
+      <input type="checkbox" id="koshak" name="interest" value="koshak">
+      <label for="koshak">Кошак</label>
+    </div>
+    <div class="animal">
+      <input type="checkbox" id="anak"  name="interest">
+      <label for="anak">Анакогда</label>
+    </div>
+    <div class="animal">
+      <input type="checkbox" id="human" name="interest" >
+      <label for="human">Человек</label>
+    </div>
+    <div class="animal">
+      <input type="checkbox" id="elef" name="interest">
+      <label for="elef">Слон</label>
+    </div>
+    <div class="animal">
+      <input type="checkbox" id="antil" name="interest" value="antil">
+      <label for="antil">Антилопа</label>
+    </div>
+    <div class="animal">
+      <input type="checkbox" id="Golub" name="interest" value="Golub">
+      <label for="Golub">Голубь</label>
+    </div>
+    <div class="animal">
+      <input type="checkbox" id="krab" name="interest" value="krab">
+      <label for="krab">Краб</label>
+    </div>
+  </fieldset>
+	
+	<div class="butdown">
+		<button class="submit" type="submit">Отправить информацию</button>
+	</div>
+</form>
+</div>
+</body>
+</html>
